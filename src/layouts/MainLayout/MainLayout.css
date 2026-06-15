@@ -1,0 +1,15 @@
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  width: 100%;
+}
+
+/* Animations on page content transition */
+.main-content > * {
+  animation: fadeIn var(--transition-slow) forwards;
+}

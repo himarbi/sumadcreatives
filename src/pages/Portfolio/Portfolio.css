@@ -1,0 +1,119 @@
+.portfolio-page {
+  padding-bottom: 80px;
+}
+
+.portfolio-header {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+/* Filter and Search Wrapper */
+.portfolio-filter-search {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-bottom: 56px;
+  background-color: var(--bg-white);
+  padding: 32px;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(0,0,0,0.02);
+}
+
+.portfolio-search-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.portfolio-search-input {
+  width: 100%;
+  padding: 14px 48px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 50px;
+  font-size: 1rem;
+  transition: var(--transition-fast);
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  text-align: left;
+}
+
+[data-theme="dark"] .portfolio-search-input {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.portfolio-search-input::placeholder {
+  color: var(--text-muted);
+  opacity: 0.75;
+}
+
+.portfolio-search-input:focus {
+  outline: none;
+  background-color: var(--bg-white);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(238, 155, 0, 0.15);
+}
+
+[data-theme="dark"] .portfolio-search-input:focus {
+  background-color: var(--bg-light);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(238, 155, 0, 0.25);
+}
+
+.portfolio-search-box .search-icon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+}
+
+.portfolio-categories {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  padding-top: 24px;
+}
+
+.portfolio-cat-btn {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 8px 18px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+[data-theme="dark"] .portfolio-cat-btn {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.portfolio-cat-btn:hover {
+  background-color: rgba(238, 155, 0, 0.08);
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+[data-theme="dark"] .portfolio-cat-btn:hover {
+  background-color: rgba(229, 76, 83, 0.12);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.portfolio-cat-btn.active {
+  background-color: var(--accent);
+  color: var(--bg-white);
+  border-color: var(--accent);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Grid layout */
+.portfolio-grid {
+  margin-top: 24px;
+}
