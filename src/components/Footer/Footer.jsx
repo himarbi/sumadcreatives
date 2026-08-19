@@ -86,7 +86,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="container footer-bottom-flex">
           <p>&copy; {currentYear} Sumad Creatives. All rights reserved.</p>
-          <p>Designed with ❤️ By ibrahim for Digital Excellence</p>
+          <p>Designed with ❤️ for Digital Excellence</p>
         </div>
       </div>
     </footer>
