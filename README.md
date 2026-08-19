@@ -1,16 +1,57 @@
-# React + Vite
+# Sumad Creatives
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official web repository for **Sumad Creatives**. Established in late 2024, Sumad Creatives is a multimedia agency dedicated to providing top-tier branding, video editing, and motion graphics services. 
 
-Currently, two official plugins are available:
+This repository contains the source code for our front-end web presence, built with modern web development tools for a fast and responsive user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+This project is scaffolded and built using the following technologies:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Build Tool:** [Vite](https://vitejs.dev/)
+*   **Linting:** ESLint
+*   **Package Manager:** npm
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To get a local copy of this project up and running, follow these steps.
+
+### Prerequisites
+
+Ensure you have Node.js installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone [https://github.com/himarbi/sumadcreatives.git](https://github.com/himarbi/sumadcreatives.git)
+Navigate into the project directory:
+
+Bash
+cd sumadcreatives
+Install the required NPM packages:
+
+Bash
+npm install
+Usage
+To start the local development server with Hot Module Replacement (HMR):
+
+Bash
+npm run dev
+To build the project for production:
+
+Bash
+npm run build
+Project Structure
+src/: Contains the main source code, components, and assets.
+
+public/: Static assets that do not require processing by Vite.
+
+.github/: GitHub Actions workflows and repository configurations.
+
+Contact
+Sumad Creatives
+
+Reach out to us for branding, video editing, or motion graphics inquiries.
+
+Project Link: https://github.com/himarbi/sumadcreatives
